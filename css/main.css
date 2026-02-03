@@ -8,6 +8,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-gray-100: oklch(96.7% 0.003 264.542);
+    --color-gray-300: oklch(87.2% 0.01 258.338);
+    --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -521,6 +523,15 @@
   .text-darkGrayishBlue {
     color: var(--color-darkGrayishBlue);
   }
+  .text-gray-300 {
+    color: var(--color-gray-300);
+  }
+  .text-gray-400 {
+    color: var(--color-gray-400);
+  }
+  .text-veryLightGray {
+    color: var(--color-veryLightGray);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -572,13 +583,6 @@
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
-  }
-  .hover\:bg-brightRed {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-brightRed);
-      }
-    }
   }
   .hover\:bg-brightRedLight {
     &:hover {
@@ -778,8 +782,8 @@
 }
 body {
   background-image: url('/img/bg-tablet-pattern.svg');
-  background-repeat: no-repeat;
   background-size: 800px;
+  background-repeat: no-repeat;
   background-position: 90% -25%;
 }
 #cta {

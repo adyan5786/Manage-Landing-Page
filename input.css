@@ -23,8 +23,8 @@
 /* Body */
 body {
     background-image: url('/img/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
     background-size: 800px;
+    background-repeat: no-repeat;
     background-position: 90% -25%;
 }
 
